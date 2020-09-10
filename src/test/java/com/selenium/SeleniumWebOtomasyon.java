@@ -39,8 +39,8 @@ public class SeleniumWebOtomasyon {
         try {
             Thread.sleep(2000);
         }catch (InterruptedException e){}
-        webDriver.findElement(By.id("email")).sendKeys("mustafsimsekk@gmail.com");
-        webDriver.findElement(By.id("password")).sendKeys("Fm258852");
+        webDriver.findElement(By.id("email")).sendKeys("trendyoltestinium@gmail.com");
+        webDriver.findElement(By.id("password")).sendKeys("qwertfdsa2020");
         webDriver.findElement(By.id("loginSubmit")).click();
         try {
             Thread.sleep(2000);
